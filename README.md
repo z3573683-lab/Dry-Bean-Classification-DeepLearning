@@ -26,8 +26,8 @@
 ### 1. Model Training History (Loss & Accuracy)
 The following graphs illustrate the model's performance during the training and validation phases over epochs.
 
-![Training Accuracy](  <img width="719" height="585" alt="graph_accuracy" src="https://github.com/user-attachments/assets/b7ab5c6c-b875-4d2a-b069-8ee1376c7057" />
-)
+![Training Accuracy](<   <img width="719" height="585" alt="graph_accuracy" src="https://github.com/user-attachments/assets/bc8de5d8-d585-47ea-984e-c1665bc24f3c" />
+ >)
 ![Training Loss](رابط_صورة_graph_loss_هنا)
 
 ### 2. Confusion Matrix
