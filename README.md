@@ -28,17 +28,19 @@ The following graphs illustrate the model's performance during the training and 
 
 ![Training Accuracy](<   <img width="719" height="585" alt="graph_accuracy" src="https://github.com/user-attachments/assets/bc8de5d8-d585-47ea-984e-c1665bc24f3c" />
  >)
-![Training Loss](رابط_صورة_graph_loss_هنا)
+![Training Loss](<<img width="730" height="581" alt="graph_Loss" src="https://github.com/user-attachments/assets/8a05cd83-00e4-4da5-b0ab-91a0349bd076" />>)
 
 ### 2. Confusion Matrix
 This matrix helps in understanding the model's performance across different classes and identifying where it might be making errors.
 
-![Confusion Matrix](رابط_صورة_Confusion_Matrix_هنا)
+![Confusion Matrix](< <img width="1023" height="638" alt="Confusion_Matrix" src="https://github.com/user-attachments/assets/a1addeca-5584-46e6-8c1e-5489a6c0b74a" />
+  >)
 
-### 3. Classification Report
+### 3. Classification Report  
 Detailed metrics including Precision, Recall, and F1-score for each class.
 
-![Classification Report](رابط_صورة_Classification_Report_هنا)
+![Classification Report](< <img width="553" height="326" alt="Classification_Report" src="https://github.com/user-attachments/assets/4a9978de-35ce-4756-968f-ade09e228c2d" />
+  >)
 
 ## 🛠️ Tech Stack
 * **Language**: Python
