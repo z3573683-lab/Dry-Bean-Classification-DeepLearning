@@ -21,6 +21,25 @@
 * **Overall Accuracy**: 94%.
 * **Model Robustness**: قدرة عالية على التعميم بفضل استخدام `Dropout` و `L2 Regularization`.
 
+## 📊 Training Results & Evaluation
+
+### 1. Model Training History (Loss & Accuracy)
+The following graphs illustrate the model's performance during the training and validation phases over epochs.
+
+![Training Accuracy](  <img width="719" height="585" alt="graph_accuracy" src="https://github.com/user-attachments/assets/b7ab5c6c-b875-4d2a-b069-8ee1376c7057" />
+)
+![Training Loss](رابط_صورة_graph_loss_هنا)
+
+### 2. Confusion Matrix
+This matrix helps in understanding the model's performance across different classes and identifying where it might be making errors.
+
+![Confusion Matrix](رابط_صورة_Confusion_Matrix_هنا)
+
+### 3. Classification Report
+Detailed metrics including Precision, Recall, and F1-score for each class.
+
+![Classification Report](رابط_صورة_Classification_Report_هنا)
+
 ## 🛠️ Tech Stack
 * **Language**: Python
 * **Frameworks**: TensorFlow, Keras, Scikit-Learn
