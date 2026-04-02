@@ -53,8 +53,16 @@ The following graphs illustrate the model's performance during the training and 
 ### 2. Confusion Matrix
 This matrix helps in understanding the model's performance across different classes and identifying where it might be making errors.
 
-![Confusion Matrix](< <img width="1023" height="638" alt="Confusion_Matrix" src="https://github.com/user-attachments/assets/a1addeca-5584-46e6-8c1e-5489a6c0b74a" />
-  >)
+![Confusion Matrix](< <img width="1023" height="638" alt="Confusion_Matrix" src="https://github.com/user-attachments/assets/a1addeca-5584-46e6-8c1e-5489a6c0b74a" />>)
+
+تحليل مصفوفة الارتباك (Confusion Matrix Analysis)
+
+​توضح هذه المصفوفة تفاصيل أداء النموذج في تصنيف الفئات المختلفة. يشير القطر الرئيسي المظلل باللون الأزرق الداكن إلى عدد التوقعات الصحيحة لكل فئة، حيث نلاحظ دقة عالية جداً في الفئة رقم 3 (669 توقعاً صحيحاً) والفئة رقم 5 (387 توقعاً صحيحاً). تشير القيم المنخفضة خارج القطر الرئيسي إلى وجود تداخل طفيف جداً بين بعض الفئات، مما يؤكد أن النموذج يمتلك قدرة تمييزية (Discriminative Power) قوية بين الطبقات المختلفة.
+
+​English
+
+​Title: Confusion Matrix Evaluation
+​This matrix provides a detailed breakdown of the model's classification performance across multiple classes. The dark blue diagonal represents the true positive predictions for each class, showing exceptional accuracy particularly in Class 3 (669 correct hits) and Class 5 (387 correct hits). The minimal off-diagonal values indicate very low misclassification rates, confirming the model's strong discriminative power and high precision in distinguishing between the target categories.
 
 ### 3. Classification Report  
 Detailed metrics including Precision, Recall, and F1-score for each class.
