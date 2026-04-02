@@ -30,6 +30,7 @@ The following graphs illustrate the model's performance during the training and 
  >)
 
 تحليل منحنى دقة النموذج (Model Accuracy Analysis)
+
 ​يعرض الرسم البياني أداء نموذج تعلم عميق خلال مراحل التدريب والاختبار على مدار 50 حقبة (Epoch). يوضح المنحنى استقراراً ملحوظاً وتقارباً بين دقة التدريب (Train) ودقة الاختبار (Test)، حيث وصلت الدقة إلى ما يقارب 90%. يشير هذا النمط إلى كفاءة النموذج وقدرته العالية على التعميم (Generalization) دون الوقوع في مشكلة الإفراط في التخصيص (Overfitting)
 
 ​English
@@ -39,6 +40,15 @@ The following graphs illustrate the model's performance during the training and 
 
 
 ![Training Loss](<<img width="730" height="581" alt="graph_Loss" src="https://github.com/user-attachments/assets/8a05cd83-00e4-4da5-b0ab-91a0349bd076" />>)
+
+تحليل منحنى خسارة النموذج (Model Loss Analysis)
+
+​يوضح هذا الرسم البياني انخفاض معدل الخسارة (Loss) للنموذج خلال مراحل التدريب والتحقق (Validation) على مدار 50 حقبة. نلاحظ هبوطاً حاداً وسريعاً في البداية، يتبعه استقرار تدريجي عند مستويات منخفضة تقترب من 0.2. التوازي المستمر بين منحنى التدريب والتحقق يشير إلى أن النموذج يتعلم بشكل صحيح ومستقر، مما يؤكد جودة عملية التحسين (Optimization) التي تمت أثناء التدريب
+
+​English
+
+​Title: Model Loss Performance Curve
+​This graph displays the reduction in loss during the training and validation phases over 50 epochs. The curves show a sharp initial decline, followed by a steady convergence towards a minimum value of approximately 0.2. The consistent alignment between the training and validation loss indicates a stable learning process and effective optimization, confirming that the model is avoiding divergence or overfitting issues.
 
 ### 2. Confusion Matrix
 This matrix helps in understanding the model's performance across different classes and identifying where it might be making errors.
