@@ -28,6 +28,16 @@ The following graphs illustrate the model's performance during the training and 
 
 ![Training Accuracy](<   <img width="719" height="585" alt="graph_accuracy" src="https://github.com/user-attachments/assets/bc8de5d8-d585-47ea-984e-c1665bc24f3c" />
  >)
+
+تحليل منحنى دقة النموذج (Model Accuracy Analysis)
+​يعرض الرسم البياني أداء نموذج تعلم عميق خلال مراحل التدريب والاختبار على مدار 50 حقبة (Epoch). يوضح المنحنى استقراراً ملحوظاً وتقارباً بين دقة التدريب (Train) ودقة الاختبار (Test)، حيث وصلت الدقة إلى ما يقارب 90%. يشير هذا النمط إلى كفاءة النموذج وقدرته العالية على التعميم (Generalization) دون الوقوع في مشكلة الإفراط في التخصيص (Overfitting)
+
+​English
+
+​Title: Model Accuracy Performance Curve
+​This graph illustrates the performance of a deep learning model during the training and validation phases over 50 epochs. The curves show a steady increase in accuracy, eventually plateauing at approximately 90%. The close proximity between the training and testing lines indicates strong model generalization and suggests that the model is well-tuned with minimal overfitting.
+
+
 ![Training Loss](<<img width="730" height="581" alt="graph_Loss" src="https://github.com/user-attachments/assets/8a05cd83-00e4-4da5-b0ab-91a0349bd076" />>)
 
 ### 2. Confusion Matrix
