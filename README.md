@@ -67,8 +67,16 @@ This matrix helps in understanding the model's performance across different clas
 ### 3. Classification Report  
 Detailed metrics including Precision, Recall, and F1-score for each class.
 
-![Classification Report](< <img width="553" height="326" alt="Classification_Report" src="https://github.com/user-attachments/assets/4a9978de-35ce-4756-968f-ade09e228c2d" />
-  >)
+![Classification Report](< <img width="553" height="326" alt="Classification_Report" src="https://github.com/user-attachments/assets/4a9978de-35ce-4756-968f-ade09e228c2d" />>)
+
+تقرير تقييم أداء النموذج (Detailed Classification Report)
+
+​يوضح هذا التقرير مقاييس الأداء التفصيلية لكل فئة من فئات البيانات، حيث حقق النموذج دقة إجمالية (Accuracy) تصل إلى 93%. يتضح من خلال قيم الـ F1-score والـ Precision أن النموذج يحقق توازناً مثالياً في التصنيف، خاصة في الفئة رقم 1 التي سجلت علامة كاملة تقريباً. استقرار متوسطات الماكرو (Macro Avg) والوزن (Weighted Avg) عند 93% و 94% يؤكد أن النموذج لا يعاني من انحياز لفئة معينة ويؤدي بكفاءة عالية على كامل مجموعة البيانات.
+
+​English
+
+​Title: Classification Performance Report
+​This report summarizes the key evaluation metrics for each class, with the model achieving an overall Accuracy of 93%. The high Precision, Recall, and F1-score across all categories, particularly Class 1 which scored a perfect 1.00, demonstrate a highly robust model. The Macro and Weighted averages (stabilizing at 93-94%) confirm that the model is well-balanced and performs consistently across all classes without being biased toward the majority labels.
 
 ## 🛠️ Tech Stack
 * **Language**: Python
