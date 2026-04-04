@@ -64,7 +64,7 @@ This matrix helps in understanding the model's performance across different clas
 ​Title: Confusion Matrix Evaluation
 ​This matrix provides a detailed breakdown of the model's classification performance across multiple classes. The dark blue diagonal represents the true positive predictions for each class, showing exceptional accuracy particularly in Class 3 (669 correct hits) and Class 5 (387 correct hits). The minimal off-diagonal values indicate very low misclassification rates, confirming the model's strong discriminative power and high precision in distinguishing between the target categories.
 
-### 3. Classification Report  
+### 3. Classification Report 
 Detailed metrics including Precision, Recall, and F1-score for each class.
 
 ![Classification Report](< <img width="553" height="326" alt="Classification_Report" src="https://github.com/user-attachments/assets/4a9978de-35ce-4756-968f-ade09e228c2d" />>)
